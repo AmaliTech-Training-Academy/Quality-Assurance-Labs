@@ -16,7 +16,7 @@ Set up a Continuous Integration (CI) pipeline using GitHub Actions to automate S
 
 ---
 
-## PROJECT Description: Selenium WebDriver Setup and Basic UI Testing
+## Project Description
 
 ---
 
