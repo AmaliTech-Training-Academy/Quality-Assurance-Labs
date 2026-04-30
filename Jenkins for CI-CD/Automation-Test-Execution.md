@@ -4,7 +4,7 @@
 
 This project seeks to help QA engineers have hands-on practice to set up a Jenkins pipeline to automatically trigger and execute tests upon code commits or scheduled builds. It simulates a real-world CI/CD setup where Jenkins pulls the latest test automation code from a Git repository, builds the project (if applicable), runs the test suite, and generates reports.
 
-## Objectives
+## Project Objectives
 
 Understand how CI/CD supports test automation  
 
