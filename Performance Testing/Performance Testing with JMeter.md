@@ -1,6 +1,6 @@
 # **Performance Testing with JMeter**
 
-## **Objective:**
+## **Project Objective**
 
 The objective of this project is to assess the performance, scalability, and reliability of a web application under varying loads using JMeter. The performance test will simulate real-world scenarios to evaluate response times, throughput, and error rates. The goal is to identify bottlenecks and ensure the application meets performance requirements.
 
