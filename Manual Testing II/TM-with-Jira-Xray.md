@@ -1,159 +1,106 @@
-# Test Management with Jira - Xray
+# **Test Management with Jira - Xray**
 
-## Project Objectives
+## **Objectives:**
 
-- Develop a comprehensive test plan aligned with project goals and stakeholder expectations, covering scope, objectives, and resources.  
+- Develop a comprehensive test plan, ensuring alignment with project goals and stakeholder expectations, for all testing activities including scope, objectives and resources.
 
-- Develop detailed test case documentation that covers both functional and non-functional requirements, ensuring thorough test coverage and clear, reproducible testing steps.  
+- Develop effective and detailed test case document that cover functional and non-functional requirements, ensuring thorough test coverage and clear, reproducible steps for testing.
 
-- Utilize Jira with Xray for test management.  
+- Utilize Jira - Xray in the test management
 
-- Manage defects using Jira Xray to log, prioritize, and track bugs.  
-
----
-
-## Project Overview
-
-The **XYZ Bank App** is a digital banking platform designed for two primary user groups: **Customers** and **Bank Managers**.
-
-### For Customers
-The application provides essential banking functionalities, including:
-- Secure login  
-- Deposit funds  
-- Withdraw money  
-- Access account-related services  
-
-### For Bank Managers
-The application provides administrative capabilities, including:
-- Adding new customers  
-- Creating accounts  
-- Deleting accounts  
+- Manage defects using Jira - Xray to log, prioritize and track bugs.
 
 ---
 
-## Requirements
+## **Overview:**
 
-- Develop a test plan for the project  
-- Perform manual testing on the application  
-- Manage testing activities using Jira - Xray  
-- Access and test the application via: **XYZ Bank App**  
+The XYZ Bank app is a digital banking platform designed to serve two primary user groups: **customers** and **bank managers**.
 
----
+- **For Customers**: The app provides essential banking functionalities, including the ability to log in securely, deposit funds, withdraw money, and access other account-related services. This ensures a convenient and efficient banking experience for users.
 
-## User Stories
+- **For Bank Managers**: The app offers administrative capabilities, allowing managers to add new customers, create accounts, and delete accounts as needed. This streamlines customer management and enhances operational efficiency.
 
-### User Story 1: Bank Manager
+## **Requirements:**
 
-**As a Bank Manager**, I want to manage customer accounts efficiently by adding customers, creating accounts, and deleting accounts.
+- Develop a test plan for the project.
 
-#### Acceptance Criteria
+- Perform manual test on the application.
 
-**Adding Customers**
-- The system should allow managers to add new customers  
-- Customer names must contain only alphabetic characters  
-- Postal codes must contain only numeric characters  
+- Manage your test using Jira - Xray.
 
-**Creating Accounts**
-- Managers should be able to create accounts for existing customers  
-- Customers cannot access accounts until they are created  
-
-**Deleting Accounts**
-- Managers should be able to delete customer accounts  
-- Deleted accounts should no longer be accessible by customers  
+Access the bank app here: [XYZ Bank App](https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login)
 
 ---
 
-### User Story 2: Customer
+## **User Stories:**
 
-**As a Customer**, I want to manage my finances by viewing transactions, depositing funds, and withdrawing money.
+### **User Story 1:**
 
-#### Acceptance Criteria
+**As a Bank Manager, I want to add customers, create accounts, and delete accounts so that I can manage customer accounts efficiently.**
 
-**Viewing Transactions**
-- Customers should be able to view recent transaction history  
+**Acceptance Criteria:**
 
-**Depositing Funds**
-- Customers should be able to enter a deposit amount  
-- Deposit must be validated (positive value)  
-- Account balance should update after successful deposit  
+- **Adding Customers:**
 
-**Withdrawing Money**
-- Customers should be able to enter withdrawal amount  
-- Withdrawal must be validated:
-  - Positive value  
-  - Sufficient balance  
-- Account balance should update after successful withdrawal  
+  - The system should allow bank managers to add new customers.
 
-**Transaction Security**
-- Customers should not be able to alter or reset transaction history  
+  - Customer names should only contain alphabetic characters (no numbers or special characters).
 
----
+  - Postal codes should only contain numeric characters.
 
-## Grading Scheme
+- **Creating Accounts:**
 
-### 1. Test Plan Document
+  - Bank managers should be able to create accounts for customers who have been added to the system.
 
-| Metric              | Score |
-|---------------------|-------|
-| Test Plan Document  | 15    |
+  - Customers should not be able to access their accounts until an account has been created by a bank manager.
+
+- **Deleting Accounts:**
+
+  - Bank managers should be able to delete customer accounts.
+
+  - When an account is deleted, the associated customer should no longer be able to access the account.
 
 ---
 
-### 2. Test Case Development
+### **User Story 2:**
 
-- Use **Jira Xray** to:
-  - Create test cases  
-  - Link test cases to requirements  
-  - Organize test executions  
+**As a Customer, I want to view my transactions, deposit funds, and withdraw money so that I can manage my finances effectively.**
 
-**Score:** 50  
+**Acceptance Criteria:**
 
----
+- **Viewing Transactions:**
 
-### 3. Requirement Traceability Matrix (RTM)
+  - Customers should be able to view a list of their recent transactions.
 
-- Generate RTM using **Jira Xray**
-- Ensure:
-  - Requirements are linked to test cases  
-  - Test execution status is visible  
+- **Depositing Funds:**
 
-**Score:** 15  
+  - The system should allow customers to enter the deposit amount.
 
----
+  - The system should validate the deposit amount (e.g., positive value).
 
-### 4. Defect Management
+  - Upon successful deposit, the system should update the account balance.
 
-- Use **Jira Xray** to:
-  - Log bugs as issues  
-  - Assign severity and priority  
-  - Link defects to test cases  
+- **Withdrawing Money:**
 
-**Score:** 20  
+  - Customers should be able to withdraw money from their account.
 
----
+  - The system should allow customers to enter the withdrawal amount.
 
-## Total Score
+  - The system should validate the withdrawal amount (e.g., positive value, sufficient balance).
 
-**100 Marks**
+  - Upon successful withdrawal, the system should update the account balance.
+
+- **Transaction Security:**
+
+  - Customers should not be able to reset or alter their transaction history.
 
 ---
 
-## Notes
+## **Grading Scheme**
 
-- Ensure proper usage of Jira Xray features:
-  - Test Repository  
-  - Test Sets  
-  - Test Plans  
-  - Test Executions  
-
-- Maintain clear traceability between:
-  - Requirements  
-  - Test Cases  
-  - Defects  
-
-- Follow consistent naming conventions for:
-  - Test Cases (e.g., TC_001)  
-  - Bugs (e.g., BUG_001)  
-  - Requirements (e.g., REQ_001)  
-
-- Keep all test artifacts updated throughout the testing lifecycle.  
+| **METRIC** | **SCORE** | **TOTAL** |
+| --- | --- | --- |
+| Test plan document | 15 | 100 |
+| Test case development — Use Jira Xray to generate test cases and link them appropriately. | 50 |  |
+| Generate a Requirement Traceability Matrix Report using JIRA XRAY | 15 |  |
+| Defect Management — Use Jira Xray to create bug issues and link them appropriately. | 20 |  |
