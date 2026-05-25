@@ -1,20 +1,7 @@
-# **Test Automation with Playwright and TypeScript**
-
-**PROJECT: Test Automation with Playwright**
-
-### **Objectives:**
-
-- Develop a comprehensive test plan, ensuring alignment with project goals and stakeholder expectations, for all texting activities including scope, objectives and resources.
-
-- Perform test automation
-
-- Containerize and setup CI/CD Pipelines for the project using Docker and GitHub Actions respectively.
-
-- Generate report
-
+# **Test Automation with Playwright**
 ---
 
-# **Overview:**
+## **Project Overview**
 
 The XYZ Bank app is a digital banking platform designed to serve two primary user groups: **customers** and **bank managers**.
 
@@ -34,9 +21,21 @@ Access the bank app here: [XYZ Bank App](https://www.globalsqa.com/angularJs-pro
 
 ---
 
-# **User stories:**
+## **Project Objectives**
 
-## **User Story 1:**
+- Develop a comprehensive test plan, ensuring alignment with project goals and stakeholder expectations, for all texting activities including scope, objectives and resources.
+
+- Perform test automation
+
+- Containerize and setup CI/CD Pipelines for the project using Docker and GitHub Actions respectively.
+
+- Generate report
+
+---
+
+## **User stories:**
+
+### **User Story 1:**
 
 **As a Bank Manager, I want to add customers, create accounts, and delete accounts so that I can manage customer accounts efficiently.**
 
@@ -62,7 +61,7 @@ Access the bank app here: [XYZ Bank App](https://www.globalsqa.com/angularJs-pro
 
   - When an account is deleted, the associated customer should no longer be able to access the account.
 
-## **User Story 2:**
+### **User Story 2:**
 
 **As a Customer, I want to view my transactions, deposit funds, and withdraw money so that I can manage my finances effectively.**
 
