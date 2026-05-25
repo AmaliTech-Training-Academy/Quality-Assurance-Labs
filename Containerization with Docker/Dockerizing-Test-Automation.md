@@ -6,7 +6,7 @@ In this project, you are to containerize a functional test suite using Docker. A
 
 ---
 
-## **Objectives**
+## **Project Objectives**
 
 - Understand the purpose and benefits of Docker in QA workflows
 
