@@ -1,59 +1,66 @@
-# Automation Test Execution with Jenkins CI/CD
+# **Automation Test Execution with Jenkins CI/CD**
 
-## Project Overview
+## **Project Overview**
 
 This project seeks to help QA engineers have hands-on practice to set up a Jenkins pipeline to automatically trigger and execute tests upon code commits or scheduled builds. It simulates a real-world CI/CD setup where Jenkins pulls the latest test automation code from a Git repository, builds the project (if applicable), runs the test suite, and generates reports.
 
-## Project Objectives
+---
 
-Understand how CI/CD supports test automation  
+## **Objectives**
 
-Learn how to create Jenkins jobs or pipelines for testing  
+- Understand how CI/CD supports test automation
 
-Automate code pulls, test execution, and reporting in Jenkins  
+- Learn how to create Jenkins jobs or pipelines for testing
 
-Integrate reports and basic alerting in Jenkins  
+- Automate code pulls, test execution, and reporting in Jenkins
 
-## Tasks
+- Integrate reports and basic alerting in Jenkins
 
-A working test suite  
+---
 
-API tests here using REST Assured  
+## **Tasks:**
 
-Host code in a GitHub repo:  
+- A working test suite
 
-Code should include a README.md, test files, and a Dockerfile  
+- API tests [here](https://fakestoreapi.com/) using REST Assured
 
-Set up Jenkins:  
+- Host code in a GitHub repo:
 
-Install Jenkins locally or run via Docker (jenkins/jenkins:lts)  
+  - Code should include a README.md, test files, and a Dockerfile
 
-Install required Jenkins plugins (e.g., Git, Pipeline, HTML publisher, JUnit, etc.)  
+- Set up Jenkins:
 
-Configure a Jenkins Pipeline Job:  
+  - Install Jenkins locally or run via Docker (jenkins/jenkins:lts)
 
-Pull code from the repo  
+  - Install required Jenkins plugins (e.g., Git, Pipeline, HTML publisher, JUnit, etc.)
 
-Build and install dependencies  
+- Configure a Jenkins Pipeline Job:
 
-Run tests automatically  
+  - Pull code from the repo
 
-Archive and publish test reports  
+  - Build and install dependencies
 
-Webhook and notification:  
+  - Run tests automatically
 
-Add webhook to trigger job on push  
+  - Archive and publish test reports
 
-Add Slack/email notifications  
+- Webhook and notification:
 
-Use Jenkinsfile (declarative or scripted)  
+  - Add webhook to trigger job on push
 
-## Grading Scheme
+  - Add Slack/email notifications
 
-METRIC | SCORE | Total
---- | --- | ---
-Test suite scripts | 20 | 
-Jenkins setup | 25 | 
-Jenkins pipeline | 40 | 
-Notifications | 15 | 
-Lab submission |  | 100
+  - Use Jenkinsfile (declarative or scripted)
+
+---
+
+## **Grading Scheme**
+
+| **METRIC** | **SCORE** | **TOTAL** |
+| --- | --- | --- |
+| Test suite scripts | 20 | **100** |
+| Jenkins setup | 25 |  |
+| Jenkins pipeline | 40 |  |
+| Notifications | 15 |  |
+
+---
