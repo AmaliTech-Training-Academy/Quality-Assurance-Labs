@@ -25,8 +25,8 @@ This project focuses on automating API testing using REST Assured, a Java-based 
 
 - Generate report with Allure Reports  
 - Verify the tests locally using Maven:
-- 
-- Access the API here  
+  
+- Access the API [here](https://jsonplaceholder.typicode.com/) 
 
 ---
 
