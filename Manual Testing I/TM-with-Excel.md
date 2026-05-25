@@ -1,176 +1,108 @@
-# Test Management with Excel
+# **Test Management with Excel**
 
-## Project Objectives
+## **Objectives:**
 
-- Develop a comprehensive test plan aligned with project goals and stakeholder expectations, covering scope, objectives, and resources.  
+- Develop a comprehensive test plan, ensuring alignment with project goals and stakeholder expectations, for all testing activities including scope, objectives and resources.
 
-- Develop detailed test case documentation that covers both functional and non-functional requirements, ensuring thorough test coverage and clear, reproducible testing steps, including a Requirement Traceability Matrix (RTM).  
+- Develop effective and detailed test case document that cover functional and non-functional requirements, ensuring thorough test coverage and clear, reproducible steps for testing and a requirement traceability matrix report.
 
-- Utilize Microsoft Excel as a test management tool.  
+- Utilize Excel in the test management
 
-- Manage defects using Excel to log, prioritize, and track bugs.  
-
----
-
-## Project Overview
-
-**The Product Store** is an e-commerce platform designed to provide customers with a seamless online shopping experience. Customers can browse and purchase a variety of products available on the website.
-
-### Key Features
-
-- **Product Browsing:**  
-  Customers can explore a wide range of products with detailed descriptions, prices, and images.  
-
-- **Shopping Cart:**  
-  Customers can add products to their cart, review selections, and prepare for checkout.  
-
-- **Order Placement:**  
-  Customers can complete purchases through a secure order process.  
+- Manage defects using excel to log, prioritize and track bugs.
 
 ---
 
-## User Stories
+## **Projects:**
 
-### User Story 1: Homepage
+### Overview
 
-**As a Customer**, I want to visit the homepage so that I can access and browse available products.
+The [Product Store](https://www.demoblaze.com/index.html) is an e-commerce platform designed to provide customers with a seamless online shopping experience. Customers can browse and purchase a variety of products available on the website. Key features include:
 
-#### Acceptance Criteria
+- **Product Browsing:** Customers can explore a wide range of products with detailed descriptions, prices, and images.
 
-1. The homepage should load quickly and be accessible without login.  
-2. The homepage should have a clear layout with navigation options (Home, Contact, Cart, Login).  
-3. Each product should display:
-   - Product name  
-   - Price  
-   - Thumbnail image  
-4. Clicking a product name should redirect to a detailed product page with:
-   - Full description  
-   - Price  
-   - Images  
-   - "Add to Cart" button  
+- **Shopping Cart:** Customers can add products to their cart, review their selections, and proceed to place orders.
+
+- **Order Placement:** Once products are added to the cart, customers can complete their purchase through a secure order process.
 
 ---
 
-### User Story 2: Cart
+## **User Stories:**
 
-**As a Customer**, I want to manage items in my cart so that I can prepare for checkout.
+### **User Story 1: Homepage**
 
-#### Acceptance Criteria
+As a Customer, I want to visit the homepage so that I can access and browse the available products.
 
-1. Customers should be able to add products using the "Add to Cart" button.  
-2. The system should provide immediate feedback (e.g., "Product added to cart").  
-3. The cart should display total cost dynamically.  
-4. Customers should be able to:
-   - Add the same product multiple times (increase quantity)  
-   - Delete products from the cart  
-5. Cart updates should reflect immediately after changes.  
-6. The cart page should include a **"Place Order"** button.  
+**Acceptance Criteria**
 
----
+1. The homepage should load quickly and be accessible to all users without requiring login.
 
-### User Story 3: Place an Order
+2. The homepage should display a clear and intuitive layout with navigation options such as home, contact, cart, and login.
 
-**As a Customer**, I want to place an order so that I can complete my purchase.
+3. Each product should display essential details, such as:
 
-#### Acceptance Criteria
+   a. Product name
 
-1. Customers should be able to click the "Place Order" button.  
-2. The button should only be enabled when the cart is not empty.  
-3. A form should be displayed upon clicking the button.  
+   b. Price
 
-#### Form Requirements
+   c. Thumbnail image
 
-- **Name (Required):**  
-  - Accept only alphabetic characters  
-
-- **Credit Card Information (Required):**  
-  - Accept only numeric input  
-  - Must be 16 digits  
-
-- **Optional Fields:**  
-  - Shipping address  
-  - Phone number  
-  - Special instructions  
-
-4. Credit card data must be securely processed (not stored in plain text).  
-5. Successful submission should display an order confirmation page.  
+4. When a customer clicks on a product name, they should be directed to a detailed product page displaying the full description, price, images, and an "Add to Cart" button.
 
 ---
 
-## Grading Scheme
+### **User Story 2: Cart**
 
-### 1. Test Plan Document
+As a Customer, I want to add products to my cart, view the total cost, and manage items in my cart so that I can prepare for checkout.
 
-| Metric                                      | Score |
-|---------------------------------------------|-------|
-| Comprehensive Test Plan                     | 15    |
+**Acceptance Criteria**
 
----
+1. Customers should be able to click the "Add to Cart" button on a product page to add the product to their cart.
 
-### 2. Test Case Development
+2. After adding a product, the system should provide immediate feedback (e.g., a notification or message like "Product added to cart").
 
-| Field                | Description                          |
-|---------------------|--------------------------------------|
-| Test Case ID        | Unique identifier                    |
-| Test Scenario       | High-level scenario                  |
-| Test Case           | Detailed test description            |
-| Test Data           | Input data                           |
-| Test Execution Steps| Steps to execute                     |
-| Expected Results    | Expected outcome                     |
-| Actual Results      | Actual outcome after execution       |
-| Status (Pass/Fail)  | Test result                          |
+3. The cart page should display the total cost of all products added, calculated dynamically as items are added or removed.
 
-**Score:** 50  
+4. Customers should be able to add the same product to the cart multiple times, increasing the quantity of that product in the cart.
+
+5. Customers should be able to delete a product from the cart.
+
+6. When a product is removed, the cart should update immediately, removing the item and adjusting the total cost.
+
+7. The cart page should include a "Place Order" button for customers ready to complete their purchase.
 
 ---
 
-### 3. Requirement Traceability Matrix (RTM)
+### **User Story 3: Place an Order**
 
-| Field                     | Description                         |
-|--------------------------|-------------------------------------|
-| Requirement ID           | Unique requirement identifier       |
-| Description              | Requirement details                 |
-| Requirement Source       | Origin of requirement               |
-| Test Case ID             | Linked test case                    |
-| Test Case Description    | Summary of test case                |
-| Test Status              | Pass/Fail                           |
-| Defect ID                | Linked defect (if applicable)       |
+As a Customer, I want to place an order after adding products to my cart so that I can complete my purchase.
 
-**Score:** 15  
+**Acceptance Criteria**
 
----
+1. Customers should be able to click a "Place Order" button on the cart page to initiate the order process.
 
-### 4. Defect Management
+2. The "Place Order" button should only be enabled if there are products in the cart. If the cart is empty, the button should be disabled or hidden.
 
-| Field                | Description                          |
-|---------------------|--------------------------------------|
-| Bug ID              | Unique identifier                    |
-| Bug Description     | Description of the issue             |
-| Steps to Reproduce  | Steps to recreate the bug            |
-| Expected Results    | Expected outcome                     |
-| Actual Results      | Actual outcome                       |
-| Environment         | Testing environment                  |
-| Severity            | Impact level                         |
-| Priority            | Urgency level                        |
-| Status              | Current state of bug                 |
-| Assignee            | Responsible person                   |
+3. Upon clicking "Place Order," a form should be displayed for the customer to fill out.
 
-**Score:** 20  
+4. The form should include the following fields:
+
+   a. Name (compulsory): Should accept only alphabetic characters (no numbers or special characters).
+
+   b. Credit Card Information (compulsory): Should accept only numeric characters and follow standard credit card format validation of 16 digits.
+
+   c. Optional Fields: Additional fields like shipping address, phone number, or special instructions (if applicable).
+
+5. Credit card information should be securely processed and not stored in plain text.
+
+6. Upon successful submission of the form, the system should display an order confirmation page.
 
 ---
 
-## Total Score
+## **Grading Scheme**
 
-**100 Marks**
-
----
-
-## Notes
-
-- All test management activities should be conducted using Microsoft Excel.  
-- Ensure proper organization of sheets:
-  - Test Plan  
-  - Test Cases  
-  - RTM  
-  - Defect Log  
-- Maintain consistency in naming conventions and IDs across all documents.  
+| **METRIC** | **SCORE** | **TOTAL** |
+| --- | --- | --- |
+| Develop a comprehensive Test Plan document for the project. | 15 | 100 |
+| Test case development — Test Case ID, Test Scenario, Test Case, Test Data, Test Execution Steps, Expected Results, Actual Results, Status (Pass/Fail) | 50 |  |
+| Requirement Traceability Matrix Report — Requirement ID, Description, Requirement Source, Test Case ID, Test Case Description, Test Status, Defect ID (where applicable) | 15 |  |
+| Defect Management — Bug ID, Bug Description, Steps to Reproduce, Expected Results, Actual Results, Environment, Severity, Priority, Status, Assignee | 20 |  |
