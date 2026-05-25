@@ -1,6 +1,18 @@
 # **Test Management with Excel**
 
-## **Objectives:**
+## Project Overview
+
+The [Product Store](https://www.demoblaze.com/index.html) is an e-commerce platform designed to provide customers with a seamless online shopping experience. Customers can browse and purchase a variety of products available on the website. Key features include:
+
+- **Product Browsing:** Customers can explore a wide range of products with detailed descriptions, prices, and images.
+
+- **Shopping Cart:** Customers can add products to their cart, review their selections, and proceed to place orders.
+
+- **Order Placement:** Once products are added to the cart, customers can complete their purchase through a secure order process.
+
+---
+
+## **Project Objectives**
 
 - Develop a comprehensive test plan, ensuring alignment with project goals and stakeholder expectations, for all testing activities including scope, objectives and resources.
 
@@ -12,19 +24,6 @@
 
 ---
 
-## **Projects:**
-
-### Overview
-
-The [Product Store](https://www.demoblaze.com/index.html) is an e-commerce platform designed to provide customers with a seamless online shopping experience. Customers can browse and purchase a variety of products available on the website. Key features include:
-
-- **Product Browsing:** Customers can explore a wide range of products with detailed descriptions, prices, and images.
-
-- **Shopping Cart:** Customers can add products to their cart, review their selections, and proceed to place orders.
-
-- **Order Placement:** Once products are added to the cart, customers can complete their purchase through a secure order process.
-
----
 
 ## **User Stories:**
 
