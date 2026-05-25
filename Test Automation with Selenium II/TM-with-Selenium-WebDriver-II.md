@@ -1,6 +1,16 @@
 # Test Automation with Selenium WebDriver II
 
-## **Objectives:**
+## **Project Overview**
+
+The XYZ Bank app is a digital banking platform designed to serve two primary user groups: **customers** and **bank managers**.
+
+- **For Customers**: The app provides essential banking functionalities, including the ability to log in securely, deposit funds, withdraw money, and access other account-related services. This ensures a convenient and efficient banking experience for users.
+
+- **For Bank Managers**: The app offers administrative capabilities, allowing managers to add new customers, create accounts, and delete accounts as needed. This streamlines customer management and enhances operational efficiency.
+
+---
+
+## **Project Objectives**
 
 - Develop a comprehensive test plan, ensuring alignment with project goals and stakeholder expectations, for all testing activities including scope, objectives and resources.
 
@@ -12,13 +22,7 @@
 
 ---
 
-## **Overview:**
 
-The XYZ Bank app is a digital banking platform designed to serve two primary user groups: **customers** and **bank managers**.
-
-- **For Customers**: The app provides essential banking functionalities, including the ability to log in securely, deposit funds, withdraw money, and access other account-related services. This ensures a convenient and efficient banking experience for users.
-
-- **For Bank Managers**: The app offers administrative capabilities, allowing managers to add new customers, create accounts, and delete accounts as needed. This streamlines customer management and enhances operational efficiency.
 
 ## **Requirements:**
 
