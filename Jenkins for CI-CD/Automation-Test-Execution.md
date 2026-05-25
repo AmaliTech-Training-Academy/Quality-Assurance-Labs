@@ -6,7 +6,7 @@ This project seeks to help QA engineers have hands-on practice to set up a Jenki
 
 ---
 
-## **Objectives**
+## **Project Objectives**
 
 - Understand how CI/CD supports test automation
 
