@@ -1,10 +1,12 @@
-## **Project: UI Test Automation Using Selenide**
+# **Project: UI Test Automation Using Selenide**
 
-### **Project Overview**
+## **Project Overview**
 
 This project is designed to help QA engineers gain practical experience in automating UI testing using **Selenide**, a powerful framework built on top of Selenium. Participants will build and maintain automated UI test suites that validate the core functionalities of a sample web application. The project emphasizes simplicity, stability, and maintainability of tests using Selenide's fluent API and concise syntax.
 
-### **Objectives**
+---
+
+## **Project Objectives**
 
 - Automate common UI scenarios such as login, form submission, and navigation.
 
@@ -14,7 +16,9 @@ This project is designed to help QA engineers gain practical experience in autom
 
 - Optionally run tests in headless mode and across multiple browsers.
 
-### **Task**
+---
+
+## **Tasks**
 
 Application under test:
 
@@ -46,7 +50,7 @@ Application under test:
 
 ---
 
-### **Grading Scheme**
+## **Grading Scheme**
 
 | METRIC | SCORE | Total |
 | --- | --- | --- |
